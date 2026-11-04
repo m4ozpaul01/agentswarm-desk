@@ -44,7 +44,7 @@ footer{color:#3d4c62;font-size:10.5px;padding:18px 22px 40px;text-align:center}
 </style></head><body>
 <header>
   <div class="brand"><span class="dot"></span><b>AGENTSWARM</b><span>AUTONOMOUS COMPANY</span></div>
-  <div class="stamp">snapshot 2026-11-04 02:00 UTC · rebuilt every 15 minutes</div>
+  <div class="stamp">snapshot 2026-11-04 02:15 UTC · rebuilt every 15 minutes</div>
 </header>
 <nav role="tablist">
   <button class="tab" data-tab="trading" aria-selected="true" role="tab">Trading</button>
@@ -52,13 +52,13 @@ footer{color:#3d4c62;font-size:10.5px;padding:18px 22px 40px;text-align:center}
   <button class="tab" data-tab="mac" aria-selected="false" role="tab">macOS device</button>
 </nav>
 <main>
-  <div class="panel on" id="tab-trading" role="tabpanel"><p class="note">Executing host: <b>MacBook</b> — Apple M1 Max · book synced 2026-11-04 02:00 UTC · paper fills at live Kraken quotes, taker 0.26% per side</p>
+  <div class="panel on" id="tab-trading" role="tabpanel"><p class="note">Executing host: <b>MacBook</b> — Apple M1 Max · book synced 2026-11-04 02:15 UTC · paper fills at live Kraken quotes, taker 0.26% per side</p>
 <div class="kpis">
-  <div class="kpi"><div class="l">Equity</div><div class="v pos">€100.01</div>
-    <div class="n">seed €100.00 · +0.01%</div></div>
+  <div class="kpi"><div class="l">Equity</div><div class="v pos">€100.02</div>
+    <div class="n">seed €100.00 · +0.02%</div></div>
   <div class="kpi"><div class="l">Cash</div><div class="v">€92.62</div><div class="n">no leverage</div></div>
   <div class="kpi"><div class="l">Open positions</div><div class="v">3 / 3</div>
-    <div class="n">€7.39 at market</div></div>
+    <div class="n">€7.40 at market</div></div>
   <div class="kpi"><div class="l">Realised P&amp;L</div><div class="v neg">€0.00</div>
     <div class="n">fees paid €0.02</div></div>
 </div>
@@ -67,8 +67,8 @@ footer{color:#3d4c62;font-size:10.5px;padding:18px 22px 40px;text-align:center}
   <div class="panel" id="tab-agents" role="tabpanel">
 <div class="kpis">
   <div class="kpi"><div class="l">Agents</div><div class="v">17</div><div class="n">across 7 divisions</div></div>
-  <div class="kpi"><div class="l">CPU</div><div class="v">0.6%</div>
-     <div class="n">8 threads · load 0.78</div></div>
+  <div class="kpi"><div class="l">CPU</div><div class="v">50.9%</div>
+     <div class="n">8 threads · load 3.44</div></div>
   <div class="kpi"><div class="l">Memory</div><div class="v">13.7 / 22.4 GB</div>
      <div class="n">60.9% used</div></div>
   <div class="kpi"><div class="l">DeepSeek spend</div><div class="v">€0.00</div>
@@ -79,11 +79,11 @@ footer{color:#3d4c62;font-size:10.5px;padding:18px 22px 40px;text-align:center}
 <section><h2>Machine &amp; services</h2>
 <table>
 <tr><th>Resource</th><th class="num">Value</th><th>Note</th></tr>
-<tr><td>CPU</td><td class="num">0.6%</td><td class="dim">8 threads · load [0.78, 1.86, 1.4]</td></tr>
+<tr><td>CPU</td><td class="num">50.9%</td><td class="dim">8 threads · load [3.44, 1.37, 1.01]</td></tr>
 <tr><td>Memory</td><td class="num">13.7 / 22.4 GB</td><td class="dim">60.9%</td></tr>
 <tr><td>Disk</td><td class="num">399.3 GB free</td><td class="dim">of 467.3 GB</td></tr>
-<tr><td>Temperature</td><td class="num">53.0 °C</td><td class="dim">CPU thermal zone</td></tr>
-<tr><td>Uptime</td><td class="num">252.7 h</td><td class="dim">host</td></tr>
+<tr><td>Temperature</td><td class="num">58.0 °C</td><td class="dim">CPU thermal zone</td></tr>
+<tr><td>Uptime</td><td class="num">252.9 h</td><td class="dim">host</td></tr>
 <tr><td>API service</td><td class="num">active</td><td class="dim">127.0.0.1:8600</td></tr>
 <tr><td>Ollama</td><td class="num">active</td><td class="dim">2 parallel slots · q8_0 KV cache</td></tr>
 </table></section>
@@ -108,7 +108,7 @@ so a model can be wrong without being dangerous.</p>
   <div class="kpi"><div class="l">Chip</div><div class="v">Apple M1 Max</div>
     <div class="n">10 cores · 32.0 GB unified</div></div>
   <div class="kpi"><div class="l">Mac equity</div><div class="v">€100.00</div>
-    <div class="n">loop cycles 60 · 28.0 s/cycle</div></div>
+    <div class="n">loop cycles 62 · 23.3 s/cycle</div></div>
   <div class="kpi"><div class="l">Committee speed</div><div class="v">43.5 s</div>
     <div class="n">average of the last 5 on the Mac</div></div>
 </div>
@@ -119,8 +119,8 @@ so a model can be wrong without being dangerous.</p>
 <tr><td>Inference</td><td>metal_unified_memory · 4 parallel slots</td></tr>
 <tr><td>Models</td><td>qwen2.5:7b-instruct-q5_K_M · qwen2.5-coder:7b-instruct-q4_K_M</td></tr>
 <tr><td>Disk</td><td>781.5 GB free of 926.4 GB</td></tr>
-<tr><td>Load (1/5/15)</td><td>1.98, 1.89, 1.84</td></tr>
-<tr><td>Uptime</td><td>13.7 h</td></tr>
+<tr><td>Load (1/5/15)</td><td>1.82, 1.73, 1.73</td></tr>
+<tr><td>Uptime</td><td>13.9 h</td></tr>
 </table></section>
 
 <section><h2>Agents on the Mac</h2><table>
@@ -143,7 +143,7 @@ in 36.8 s (2026-11-03 20:54)</p></section><section><h2>Local models on the Mac</
 <tr><td>Parallel slots</td><td>2</td><td>4</td></tr>
 <tr><td>Committee time (avg, last 5)</td><td>43.5 s</td><td>43.5 s</td></tr>
 <tr><td>Committees total</td><td>111</td><td>111</td></tr>
-<tr><td>Equity</td><td>€100.01</td><td>€100.00</td></tr>
+<tr><td>Equity</td><td>€100.02</td><td>€100.00</td></tr>
 <tr><td>Open positions</td><td>3</td><td>3</td></tr>
 <tr><td>Decisions recorded</td><td>111</td><td>111</td></tr>
 <tr><td>DeepSeek spend</td><td>€0.00</td><td>€0.00</td></tr>
